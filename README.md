@@ -14,6 +14,28 @@ Download this repository, then open **docs/index.html** in a modern browser with
 
 Each HTML page is self-contained. Press Escape to reset the view. The structure explorer also supports Space to open/close and arrow keys to rotate when its canvas has keyboard focus.
 
+## Screenshots
+
+Actual screenshots from the included animations (2880 × 1800 pixels). Open the HTML pages to rotate, zoom and interact.
+
+### 1. Ribosome structure
+
+Expanded subunits in ribbon view, with RNA, proteins and the PTC labeled.
+
+![Ribosome structure with separated subunits and PTC annotation](docs/screenshots/structure.png)
+
+### 2. Translation
+
+The peptide-bond formation stage, with the PTC highlighted through its interactive label.
+
+![Translation animation showing tRNAs, mRNA, nascent peptide and highlighted PTC](docs/screenshots/translation.png)
+
+### 3. Ribosome biogenesis
+
+Pre-subunit assembly in a human cell, with a transparent nuclear envelope and stage-by-stage explanations.
+
+![Human ribosome biogenesis showing nuclear assembly and nuclear pores](docs/screenshots/biogenesis.png)
+
 ## Scientific basis and limitations
 
 - **Bacterial ribosome:** E. coli 70S coordinates from **PDB 4YBB**; Noeske et al. (2015), *Nature Structural & Molecular Biology*. DOI: **10.1038/nsmb.2994**.
@@ -39,7 +61,7 @@ This rebuilds the three standalone pages in `docs/` from `src/`. The prepared co
 ## Repository layout
 
 ```text
-docs/                 Landing page and three standalone animations
+docs/                 Landing page, three animations and screenshots
 src/ribosome_web/     Structure explorer, shared renderer and 4YBB data
 src/translation_web/  Translation animation and aligned RNA complex data
 src/biogenesis_web/   Biogenesis animation, environment and 4UG0 data
